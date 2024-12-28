@@ -7,8 +7,8 @@ cd /home/deploy/whaticket/backend
 sudo su - deploy << EOF
 cat <<[-]EOF > /home/deploy/whaticket/backend/.env
 NODE_ENV=
-BACKEND_URL=http://localhost
-FRONTEND_URL=http://localhost:3000
+BACKEND_URL=http://172.16.38.233
+FRONTEND_URL=http://172.16.38.233:3000
 PROXY_PORT=8080
 PORT=8080
 
